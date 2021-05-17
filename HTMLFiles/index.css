@@ -1,5 +1,4 @@
 /* Text:*/
-
 .Text {
   font-size: 16px;
   line-height: 1.1875;
@@ -27,6 +26,27 @@
 .Item1Inline {
   font-size: 16px;
   margin-left: 60px;
+  padding: 8px;
+}
+/* Subsubsection:*/
+.Subsubsection {
+  font-size: 14px;
+  font-family: Times;
+  font-weight: bold;
+  margin-left: 66px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  padding: 8px;
+  display: list-item;
+  list-style-type: square;
+}
+.SubsubsectionInline {
+  font-size: 14px;
+  font-family: Times;
+  font-weight: bold;
+  margin-left: 66px;
+  margin-top: 10px;
+  margin-bottom: 2px;
   padding: 8px;
 }
 /* Notebook:*/
@@ -190,25 +210,6 @@ html {
   margin-left: 66px;
   margin-top: 12px;
   margin-bottom: 8px;
-  padding: 8px;
-}
-/* Subsubsection:*/
-.Subsubsection {
-  font-family: Times;
-  font-weight: bold;
-  margin-left: 66px;
-  margin-top: 10px;
-  margin-bottom: 2px;
-  padding: 8px;
-  display: list-item;
-  list-style-type: square;
-}
-.SubsubsectionInline {
-  font-family: Times;
-  font-weight: bold;
-  margin-left: 66px;
-  margin-top: 10px;
-  margin-bottom: 2px;
   padding: 8px;
 }
 /* Subsubsubsection:*/
@@ -9274,7 +9275,7 @@ Floor[--------------------------------------------------]
   color: #808080;
   text-align: left;
   line-height:                1
-If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$618693]
+If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$688215]
         -2. + Inherited;
   padding: 8px;
 }
@@ -9286,7 +9287,7 @@ If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$618693]
   color: #808080;
   text-align: left;
   line-height:                1
-If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$618709]
+If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$688231]
         -2. + Inherited;
   padding: 8px;
 }
@@ -9299,7 +9300,7 @@ If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$618709]
   color: #808080;
   text-align: left;
   line-height:                1
-If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$618725]
+If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$688247]
         -1. + Inherited;
   padding: 8px;
 }
@@ -9311,7 +9312,7 @@ If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$618725]
   color: #808080;
   text-align: left;
   line-height:                1
-If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$618741]
+If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$688263]
         -1. + Inherited;
   padding: 8px;
 }

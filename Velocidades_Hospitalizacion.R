@@ -4,6 +4,13 @@
 # se utiliza el paquete smoother para aplicar
 # filtro de gauss al resultado
 library(smoother)
+library(dplyr)
+library(data.table)
+
+# cambiar la fecha acordemente para cargar los últimos datos
+aaaa <- "2021"
+mm <- "05"
+dd <- "18"
 
 # Función para al cálculo de diferencias finitas
 finite.differences <- function(data) {
@@ -16,9 +23,10 @@ finite.differences <- function(data) {
 }
 
 # carga los datos de https://geovision.uned.ac.cr/oges/
-# noten la fecha en el directorio y nombre de archivo
-# cambiar la fecha acordemente para cargar los últimos datos
-data <- read.csv("https://geovision.uned.ac.cr/oges/archivos_covid/2021_05_18/05_18_21_CSV_GENERAL.csv", sep=';')
+url.data <- paste0("https://geovision.uned.ac.cr/oges/archivos_covid/",aaaa,"_",mm,"_",dd,"/",mm,"_",dd,"_",
+                  substr(aaaa,start=3,stop=4),"_CSV_GENERAL.csv")
+
+data <- as.data.frame(fread(url.data))
 
 # hospitalizaciones en la columna 30
 hosp <-data[,30]

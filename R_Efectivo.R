@@ -1,6 +1,9 @@
 # Tomás de Camino Beck
 # tomas.decamino@gmail.com
 
+#para calcular tasa de contagio según fórmula del CCP
+# https://ccp.ucr.ac.cr/index.php/tasa-r-covid-19.html
+
 # se utiliza el paquete smoother para aplicar
 # filtro de gauss al resultado
 library(smoother)

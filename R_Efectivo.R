@@ -33,4 +33,4 @@ hosp <-data[,3]
 R <- effective.R(hosp,15)
 
 # grafica la derivada usando un filtro de gauss de 7 días
-plot(smth(R,window = 7,method = "gaussian"),type = 'l', col="red",xlab="Días", ylab="Velocidad", main="Velocidades de Hospitalización")
+plot(smth(R,window = 7,method = "gaussian"),type = 'l', col="red",xlab="Días", ylab="R (efectivo)", main="Tasa de Contagio")

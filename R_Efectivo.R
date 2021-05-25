@@ -7,6 +7,7 @@
 library(smoother)
 
 #función de ponderación
+# los parámetros son tomados del CCP (ver link)
 weighted<-function(a){
   return(0.12 * exp(-0.0665*(a - 2) + (0.0048/0.2236) * (1 - exp(0.2236 * a))))
 }

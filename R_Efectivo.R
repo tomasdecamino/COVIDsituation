@@ -1,5 +1,6 @@
 # Tomás de Camino Beck
 # tomas.decamino@gmail.com
+# detalles de la fórmula acá https://ccp.ucr.ac.cr/index.php/tasa-r-covid-19.html
 
 # se utiliza el paquete smoother para aplicar
 # filtro de gauss al resultado

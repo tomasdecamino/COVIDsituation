@@ -29,7 +29,7 @@ data <- read.csv("https://geovision.uned.ac.cr/oges/archivos_covid/2021_05_24/05
 # casos nuevos positivos en la columna 3
 hosp <-data[,3]
 
-#calcula el R efectivo
+#calcula el R efectivo ponderando 15 días hacia atrás
 R <- effective.R(hosp,15)
 
 # grafica la derivada usando un filtro de gauss de 7 días

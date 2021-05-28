@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
+        "HTMLFiles/xhtml-math11-f.dtd">
+
+<!-- Created with the Wolfram Language : www.wolfram.com -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>
+  Reporte R_SNC
+ </title>
+ <link href="HTMLFiles/Reporte R_SNC.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<p class="Title">
+ Tasa de Contagio: Retos en la interpretaci&oacute;n de esta m&eacute;trica
+</p>
+
+
+
+<p class="Author">
+ Tom&aacute;s de Camino Beck, Ph.D., Santiafgo Nu&ntilde;ez-Corrales, Ph.D
+</p>
+
+
+
+<p class="Section">
+ Introducci&oacute;n
+</p>
+
+
+
+<p class="Subsection">
+ &iquest;Qu&eacute; es la tasa de contagio?
+</p>
+
+
+
+<p class="Text">
+ El R <span>efectivo</span> (<span><span><img src="HTMLFiles/Reporte R_SNC_1.png" alt="Reporte R_SNC_1.png" width="16" height="21" style="vertical-align:middle" /></span></span>) o tasa de contagio, es la cantidad de infecciones secundarias promedio que una persona puede generar durante todo su ciclo de infecci&oacute;n.&nbsp;&nbsp;En t&eacute;rminos de poblaci&oacute;n, este par&aacute;metro indica&nbsp;&nbsp;que esta se ha infectado a esa tasa de manera retrospectiva, es decir, no es un par&aacute;metro que proyecta a futuro, sino que identifica el origen de cambio hacia atr&aacute;s.&nbsp;&nbsp;El <span><span><img src="HTMLFiles/Reporte R_SNC_2.png" alt="Reporte R_SNC_2.png" width="16" height="21" style="vertical-align:middle" /></span></span> es una aproximaci&oacute;n proporcional de lo que se conoce como n&uacute;mero reproductivo b&aacute;sico <span><span><img src="HTMLFiles/Reporte R_SNC_3.png" alt="Reporte R_SNC_3.png" width="18" height="21" style="vertical-align:middle" /></span></span>, que se utiliza para entenderla din&aacute;mica de enfermedades. Un <span><span><img src="HTMLFiles/Reporte R_SNC_4.png" alt="Reporte R_SNC_4.png" width="44" height="21" style="vertical-align:middle" /></span></span> indica que hubo un aumento en los contagio, y <span><span><img src="HTMLFiles/Reporte R_SNC_5.png" alt="Reporte R_SNC_5.png" width="44" height="21" style="vertical-align:middle" /></span></span> que hay una disminuci&oacute;n de contagios.
+</p>
+
+
+
+<p class="Subsection">
+ <span><span><img src="HTMLFiles/Reporte R_SNC_6.png" alt="Reporte R_SNC_6.png" width="13" height="17" style="vertical-align:middle" /></span></span> y su interpretaci&oacute;n
+</p>
+
+
+
+<p class="Text">
+ El <span><span><img src="HTMLFiles/Reporte R_SNC_7.png" alt="Reporte R_SNC_7.png" width="16" height="21" style="vertical-align:middle" /></span></span> se calcula a partir de los casos nuevos reportados diariamente.&nbsp;&nbsp;B&aacute;sicamente es una par&aacute;metro a nivel de poblaci&oacute;n, que promedia procesos de la din&aacute;mica de contacto en la poblaci&oacute;n, asumiendo una din&aacute;mica de transmisi&oacute;n estoc&aacute;stica.&nbsp;&nbsp;Para poder hacer inferencia sobre este par&aacute;metro, se asume que <span><span><img src="HTMLFiles/Reporte R_SNC_8.png" alt="Reporte R_SNC_8.png" width="16" height="21" style="vertical-align:middle" /></span></span> representa la din&aacute;mica de la enfermedad en la poblaci&oacute;n, por tanto se deben tener en cuenta las siguientes consideraciones:
+</p>
+
+
+
+<p class="Item1">
+ Este par&aacute;metro es retrospectivo, es decir, mide hacia atr&aacute;s. Nos dice c&oacute;mo llegamos a el presente. Cuando se utiliza para proyectar a futuro se debe ser muy cuidadoso, especialmente si no hay asociaci&oacute;n directa con aspectos mec&aacute;nisticos de la din&aacute;mica de infecci&oacute;n. Para proyectar debe haber una raz&oacute;n muy bien justificada del porque se sugiere uno u otro cambio en el valor de la tasa de contagio. Simplemente decir que va a aumentar o disminuir, no tiene ning&uacute;n valor en t&eacute;rminos de entendimiento de una epidemia. Para utilizarlo de forma adecuada, es indispensable contar con mecanismos de imputaci&oacute;n de datos que asocien eventos espec&iacute;ficos y mecanismos conocidos con tendencias de datos estad&iacute;sticamente interrogadas.
+</p>
+
+
+
+<p class="Item1">
+ Se asume que los datos de nuevos casos, que son los que se utilizan para calcular <span><span><img src="HTMLFiles/Reporte R_SNC_9.png" alt="Reporte R_SNC_9.png" width="14" height="16" style="vertical-align:middle" /></span></span>, representan una muestra poblacional.&nbsp;&nbsp;Los datos de pruebas epidemiol&oacute;gicas deben representar lo que sucede en la din&aacute;mica de la epidemia.&nbsp;&nbsp;Este par&aacute;metro tiene dificultades de ser interpretada si los datos son acfectados por factores externos que influencian su cambio.
+</p>
+
+
+
+<p class="Item1">
+ Se asume que los datos reportados de nuevos casos representan &ldquo;el d&iacute;a&rdquo; en que se reportan sin que existan retrasos en el proceso de certificaci&oacute;n sanitario, es decir, cada d&iacute;a se reportan los casos del d&iacute;a anterior y no un acumulado de casos.
+</p>
+
+
+
+<p class="Item1">
+ Se asume que hay una relaci&oacute;n proporcional entre casos sintom&aacute;ticos y asintom&aacute;ticos, puesto que los casos asintom&aacute;ticos no se detectan o son detectados con dificultad en ausencia de estrategias de muestreo.
+</p>
+
+
+
+<p class="Item1">
+ Incluso si <span><span><img src="HTMLFiles/Reporte R_SNC_10.png" alt="Reporte R_SNC_10.png" width="14" height="16" style="vertical-align:middle" /></span></span> es mayor que 1, la infecci&oacute;n puede terminar. La raz&oacute;n es que el proceso de infecci&oacute;n, es un proceso de ramificaci&oacute;n con distribuci&oacute;n binominal negativa (ac&aacute; no detallaremos en esto). Para esto se recomienda analizar la variabilidad, al agregar o promediar este par&aacute;metro, para robustecer la interpretaci&oacute;n.
+</p>
+
+
+
+<p class="Item1">
+ El fen&oacute;meno epid&eacute;mico es no-lineal con puntos cr&iacute;ticos.&nbsp;&nbsp;La no linealidad implica que el comportamiento de la epidemia no puede extrapolarse trivialmente del pasado, y por ende, que el futuro no puede extrapolarse de manera directa del presente. Un punto cr&iacute;tico es una configuraci&oacute;n del fen&oacute;meno que lleva a la epidemia a presentar categor&iacute;as de comportamiento dr&aacute;sticamente distintas entre s&iacute;. Constantemente se sobrepasan valores cr&iacute;ticos de tama&ntilde;o de poblaci&oacute;n, niveles de infecci&oacute;n, etc., que generan cambios de comportamiento en la din&aacute;mica y que luego se reflejan en los par&aacute;metros que caracterizan distintos mecanismos. 
+</p>
+
+
+
+<p class="Item1">
+ Debido al tiempo de incubaci&oacute;n, y a la estrategia de pruebas, <span><span><img src="HTMLFiles/Reporte R_SNC_11.png" alt="Reporte R_SNC_11.png" width="14" height="16" style="vertical-align:middle" /></span></span> tiene un tiempo de retardo, que debe ser considerado en su interpretaci&oacute;n, es decir, el efecto de las medidas aplicadas no se ve de forma instant&aacute;nea, sino que deben considerarse el tiempo de incubaci&oacute;n.&nbsp;&nbsp;Es decir, si se tienen estrategias reactivas de pruebas, <span><span><img src="HTMLFiles/Reporte R_SNC_12.png" alt="Reporte R_SNC_12.png" width="17" height="16" style="vertical-align:middle" /></span></span>es un indicador de incidencia de s&iacute;ntomas m&aacute;s que de infecci&oacute;n.&nbsp;&nbsp;Mientras mayor el retraso de el reporte de infectados, mayor la incertidumbre introducida en el valor de la tasa de contagio. Podr&iacute;an encontrar una excelente explicaci&oacute;n t&eacute;cnica en este articulo del <span><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7733754/"><span class="HyperlinkInline">Journal of Preventive Medicine &amp; Public Health</span></a></span>.
+</p>
+
+
+
+<p class="Section">
+ Tasa de contagio (<span><span><img src="HTMLFiles/Reporte R_SNC_13.png" alt="Reporte R_SNC_13.png" width="18" height="23" style="vertical-align:middle" /></span></span>) en Costa Rica
+</p>
+
+
+
+<p class="Subsection">
+ C&aacute;lculo R efectivo (<span><span><img src="HTMLFiles/Reporte R_SNC_14.png" alt="Reporte R_SNC_14.png" width="13" height="17" style="vertical-align:middle" /></span></span>)
+</p>
+
+
+
+<p class="Text">
+ Este par&aacute;metro se calcula a partir de los datos de nuevos casos reportados de forma diaria.&nbsp;&nbsp;&nbsp;B&aacute;sicamente es el cociente de nuevos casos en un tiempo <span><span><span><img src="HTMLFiles/Reporte R_SNC_15.png" alt="Reporte R_SNC_15.png" width="5" height="25" style="vertical-align:middle" /></span></span></span> entre el total de nuevos casos en un rango predefinido de tiempo anterior, ponderado por una funci&oacute;n exponencial decreciente. Esta funci&oacute;n de poderaci&oacute;n, da m&aacute;s peso a los casos que ocurrieron cerca de <span><span><span><img src="HTMLFiles/Reporte R_SNC_16.png" alt="Reporte R_SNC_16.png" width="5" height="25" style="vertical-align:middle" /></span></span></span>.&nbsp;&nbsp;Ac&aacute; no dar&eacute; los detalles de las f&oacute;rmulas, las cuales pueden encontrar en este documento del <span><a href="https://ccp.ucr.ac.cr/documentos/portal/tasa-r-covid-19/R-Mate.pdf"><span class="HyperlinkInline">Centro Centroamericano de Poblaci&oacute;n</span></a></span>.&nbsp;&nbsp;Tambi&eacute;n publicamos el c&oacute;digo en <span><a href="https://github.com/tomasdecamino/COVIDsituation/blob/main/R_Efectivo.R"><span class="HyperlinkInline">lenguaje R</span></a></span> para aquellos interesados en calcular la tasa de contagio. En el c&oacute;digo quedan expl&iacute;citos los par&aacute;metros y f&oacute;rmulas utilizadas.
+</p>
+
+
+
+<p class="Text">
+ El resultado del c&aacute;lculo de <span><span><img src="HTMLFiles/Reporte R_SNC_17.png" alt="Reporte R_SNC_17.png" width="16" height="21" style="vertical-align:middle" /></span></span>, sobre los casos de Costa Rica, se observa en la siguiente gr&aacute;fica,
+</p>
+
+
+
+<p class='Output' style='text-align: center;'>
+ <img src="HTMLFiles/Reporte R_SNC_18.gif" alt="Reporte R_SNC_18.gif" width="900" height="559" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ Como se observa, el <span><span><img src="HTMLFiles/Reporte R_SNC_19.png" alt="Reporte R_SNC_19.png" width="16" height="21" style="vertical-align:middle" /></span></span> tiene a ser muy sensible a cambios en los datos de casos nuevos. Esto se debe principalmente a que los casos nuevos tienen a reportar menos casos domingos y lunes, tanto por el sistema de procesamiento de datos, como por que las personas potencialmente evitan llegar fines de semana a centros m&eacute;dicos. Como se puede observar en el siguiente gr&aacute;fico, que muestra la proporci&oacute;n semanal a partir del inicio de la pandemia en Costa Rica, de casos positivos reportados cada d&iacute;a de la semana,&nbsp;&nbsp;en Costa Rica, en promedio el lunes siempre presenta el menor n&uacute;mero de casos positivos reportados, en contraste con mi&eacute;rcoles en los que se presentan el mayor n&uacute;mero de casos,
+</p>
+
+
+
+<p class='Output' style='text-align: center;'>
+ <img src="HTMLFiles/Reporte R_SNC_20.gif" alt="Reporte R_SNC_20.gif" width="900" height="579" style="vertical-align:middle;" usemap="#map_20" />
+<map name="map_20">
+<area shape="rect" coords="739,445,837,102" title="max      0.32
+
+75%      0.140522
+
+median   0.115646
+
+25%      0.100618
+
+min      0.0571429" nohref="" />
+<area shape="rect" coords="635,468,733,224" title="max      0.226245
+
+75%      0.17173
+
+median   0.155943
+
+25%      0.136143
+
+min      0.04" nohref="" />
+<area shape="rect" coords="530,482,628,176" title="max      0.262626
+
+75%      0.17498
+
+median   0.163534
+
+25%      0.147224
+
+min      0.0285714" nohref="" />
+<area shape="rect" coords="425,468,523,177" title="max      0.262411
+
+75%      0.17765
+
+median   0.168833
+
+25%      0.150066
+
+min      0.04" nohref="" />
+<area shape="rect" coords="321,373,419,51" title="max      0.36
+
+75%      0.185599
+
+median   0.170134
+
+25%      0.156719
+
+min      0.113208" nohref="" />
+<area shape="rect" coords="216,468,314,199" title="max      0.245283
+
+75%      0.151791
+
+median   0.129141
+
+25%      0.104702
+
+min      0.0396825" nohref="" />
+<area shape="rect" coords="112,461,210,178" title="max      0.261538
+
+75%      0.10158
+
+median   0.0852459
+
+25%      0.0747438
+
+min      0.0447761" nohref="" />
+</map>
+</p>
+
+<p class="Text">
+ Por esa misma raz&oacute;n la interpretaci&oacute;n de <span><span><img src="HTMLFiles/Reporte R_SNC_21.png" alt="Reporte R_SNC_21.png" width="16" height="21" style="vertical-align:middle" /></span></span> debe principalmente hacerse jueves o viernes, que da una mejor imagen de una semana. Adem&aacute;s, esto implica que la imagen de este par&aacute;metro est&aacute; fuertemente sesgada por aspectos administrativos y de comportamiento en el caso de Costa Rica.
+</p>
+
+
+
+<p class="Text">
+ Debido a lo &ldquo;ruidosa&rdquo; de la serie de tiempo, interpretar visualmente <span><span><img src="HTMLFiles/Reporte R_SNC_22.png" alt="Reporte R_SNC_22.png" width="16" height="21" style="vertical-align:middle" /></span></span> de esta manera no es productivo, por lo cual generalmente se aplica alg&uacute;n filtro que promedia valores en una ventana de tiempo para suavizar la curva y de esa manera, por lo menos de manera visual, permite interpretar los cambios y relacionarlos con medidas o cambios de compartimiento a nivel de poblaci&oacute;n
+</p>
+
+
+
+<p class="Subsection">
+ Promediando <span><span><img src="HTMLFiles/Reporte R_SNC_23.png" alt="Reporte R_SNC_23.png" width="13" height="17" style="vertical-align:middle" /></span></span>
+</p>
+
+
+
+<p class="Text">
+ En la siguiente gr&aacute;fica se muestran los valores calculados por d&iacute;a para <span><span><img src="HTMLFiles/Reporte R_SNC_24.png" alt="Reporte R_SNC_24.png" width="16" height="21" style="vertical-align:middle" /></span></span>. Los puntos con linea muestran los valores calculados para el d&iacute;a, la curva gris con la aplicaci&oacute;n de un filtro de media exponencial m&oacute;vil, y la curva roja con un filtro de Gauss de 7 d&iacute;as,
+</p>
+
+
+
+<p class='Output' style='text-align: center;'>
+ <img src="HTMLFiles/Reporte R_SNC_25.gif" alt="Reporte R_SNC_25.gif" width="900" height="559" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ Los filtros &ldquo;suavizan&rdquo; la curva para poder detectar visualmente algunas tendencias generales.&nbsp;&nbsp;El tipo de filtro que se aplique es importante puesto que podr&iacute;a llevar a diferentes interpretaciones. Generalmente se recomienda la aplicaci&oacute;n de filtros que sean consistentes con el an&aacute;lisis, y se utilizan solamente para interpretaci&oacute;n visual.
+</p>
+
+
+
+<p class="Subsection">
+ Relacionar Medidas con <span><span><img src="HTMLFiles/Reporte R_SNC_26.png" alt="Reporte R_SNC_26.png" width="13" height="17" style="vertical-align:middle" /></span></span>
+</p>
+
+
+
+<p class="Text">
+ Como se indic&oacute; en la introducci&oacute;n, para la interpretaci&oacute;n de <span><span><img src="HTMLFiles/Reporte R_SNC_27.png" alt="Reporte R_SNC_27.png" width="16" height="21" style="vertical-align:middle" /></span></span> hay que tener en cuenta que los cambios en comportamiento de la poblaci&oacute;n, tendr&aacute;n un retraso en la manifestaci&oacute;n en la tasa de contagio.&nbsp;&nbsp;Se debe considerar el tiempo de incubaci&oacute;n que en promedio son 5 d&iacute;as, y el tiempo que tarde una persona en decidir ir al hospital, que digamos podr&iacute;a se 3 d&iacute;as (es un estimado). Asumiendo una distribuci&oacute;n de Poisson con <span><span><span><img src="HTMLFiles/Reporte R_SNC_28.png" alt="Reporte R_SNC_28.png" width="11" height="25" style="vertical-align:middle" /></span>=8</span></span>, el tiempo de detecci&oacute;n en <span><span><img src="HTMLFiles/Reporte R_SNC_29.png" alt="Reporte R_SNC_29.png" width="16" height="21" style="vertical-align:middle" /></span></span> viene dada por la funci&oacute;n de distribuci&oacute;n acumulada como se observa en la siguiente figura,
+</p>
+
+
+
+<p class='Output' style='text-align: center;'>
+ <img src="HTMLFiles/Reporte R_SNC_30.gif" alt="Reporte R_SNC_30.gif" width="750" height="486" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ Es decir, a partir del d&iacute;a 7 despu&eacute;s de un cambio, ya sea medidas u otro comportamiento a nivel de poblaci&oacute;n, se deber&iacute;a ver un efecto por lo menos a un 45%, y ya para el d&iacute;a 12 en un 98%. Esto se usa de referencia para demarcar medidas y su efecto. As&iacute; por ejemplo la semana santa, que inicia el lunes 29 de marzo, y asumiendo efecto entre 7 a 12 d&iacute;as (marcado en gris en la figura),
+</p>
+
+
+
+<p class='Output' style='text-align: center;'>
+ <img src="HTMLFiles/Reporte R_SNC_31.gif" alt="Reporte R_SNC_31.gif" width="900" height="559" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ Es decir,&nbsp;&nbsp;se observa un efecto de la semana santa en el cambio de <span><span><img src="HTMLFiles/Reporte R_SNC_32.png" alt="Reporte R_SNC_32.png" width="16" height="21" style="vertical-align:middle" /></span></span>. Sin embargo, tambi&eacute;n se observa un cambio en la tasa de contagio desde antes, que se pude asociar con inicio de actividad escolar. Es decir, para el momento que <span><span><img src="HTMLFiles/Reporte R_SNC_33.png" alt="Reporte R_SNC_33.png" width="16" height="21" style="vertical-align:middle" /></span></span> aumenta debido a semana santa, ya era mayor que 1 de manera persistente y ven&iacute;a en aumento constante, desde mediados de febrero.
+</p>
+
+
+
+<p class="Text">
+ Si se ven las medidas de cierre de comercio de mayo, tambi&eacute;n se podr&iacute;a decir que tienen efecto, sin embargo la baja de <span><span><img src="HTMLFiles/Reporte R_SNC_34.png" alt="Reporte R_SNC_34.png" width="16" height="21" style="vertical-align:middle" /></span></span> viene desde antes de esa medida, es decir hay otro factor que inicio el descenso de la tasa de contagio, donde las medidas de mayo luego contribuyen.
+</p>
+
+
+
+<p class="Section">
+ R a partir de hospitalizaciones (<span><span><img src="HTMLFiles/Reporte R_SNC_35.png" alt="Reporte R_SNC_35.png" width="21" height="23" style="vertical-align:middle" /></span></span>)
+</p>
+
+
+
+<p class="Text">
+ DPor la forma en que se registran casos nuevos, donde hay un n&uacute;mero limitado de pruebas que se aplican, el reporte de casos diarios no corresponde al d&iacute;a sino a varios d&iacute;as de forma irregular. Para corregir esrte problema, es posible realizar el mismo c&aacute;lculo de tasa de contagio, pero desde la perspectiva de hospitalizaciones. 
+</p>
+
+
+
+<p class="Text">
+ Los datos de hospitalizaci&oacute;n representan de forma instant&aacute;nea los ingresos y egresos del hospital, dando una imagen mucho m&aacute;s cercana al tiempo de incubaci&oacute;n y aparici&oacute;n de s&iacute;ntomas. Adicionalmente, los datos muestran una relaci&oacute;n proporcional, con respecto al total de casos del pa&iacute;s, de 6% que se ha mantenido durante toda la pandemia. Esto nos permite inferir, que el registro de hospitalizaciones representa bien a parici&oacute;n de casos en la poblaci&oacute;n, y dado que es un reporte instant&aacute;neo, permite una imagen algo m&aacute;s clara. El siguiente gr&aacute;fico muestra la tasa de contagio de hospitalizaciones, calculado usando la misma f&oacute;rmula, que se puede interpretar como el n&uacute;mero de nuevos contagios hospitalizables que una infecci&oacute;n primaria puede ocasionar.&nbsp;&nbsp;Esta tasa, que llamamos <span><span><img src="HTMLFiles/Reporte R_SNC_36.png" alt="Reporte R_SNC_36.png" width="18" height="21" style="vertical-align:middle" /></span></span>, se muestra a continuaci&oacute;n,
+</p>
+
+
+
+<p class='Output' style='text-align: center;'>
+ <img src="HTMLFiles/Reporte R_SNC_37.gif" alt="Reporte R_SNC_37.gif" width="900" height="559" style="vertical-align:middle" />
+</p>
+
+<p class="Text">
+ La interpretaci&oacute;n con respecto a medidas es similar. Es mucho m&aacute;s claro que el inicio de lecciones es uno de los factores que llev&oacute; a <span><span><img src="HTMLFiles/Reporte R_SNC_38.png" alt="Reporte R_SNC_38.png" width="18" height="21" style="vertical-align:middle" /></span></span> a ser superior a 1 a inicios de marzo, y a partir de all&iacute; comenz&oacute; el crecimiento de hospitalizaciones de forma acelerada. Comparado con <span><span><img src="HTMLFiles/Reporte R_SNC_39.png" alt="Reporte R_SNC_39.png" width="16" height="21" style="vertical-align:middle" /></span></span> el resultado se interpreta de manera similar. En la siguiente figura se muestra <span><span><img src="HTMLFiles/Reporte R_SNC_40.png" alt="Reporte R_SNC_40.png" width="16" height="21" style="vertical-align:middle" /></span></span> en gris y <span><span><img src="HTMLFiles/Reporte R_SNC_41.png" alt="Reporte R_SNC_41.png" width="18" height="21" style="vertical-align:middle" /></span></span> en rojo,
+</p>
+
+
+
+<p class='Text' style='text-align: center;'>
+ <span class="OutputInline"><span><img src="HTMLFiles/Reporte R_SNC_42.gif" alt="Reporte R_SNC_42.gif" width="900" height="559" style="vertical-align:middle" /></span></span>
+</p>
+
+
+
+<p class="Text">
+ En general la tendencia de aumento de la tasa de contagio, tanto vista desde los nuevos casos como desde las nuevas hospitalizaciones, viene desde mucho tiempo antes de semana santa.&nbsp;&nbsp;Semana santa contribuye, del mismo modo que el inicio del a&ntilde;o lectivo, y los relajamientos de medidas de marzo.
+</p>
+
+
+
+<p class="Text">
+ Adicionalmente, por la forma en que se registran las hospitalizaciones, pareciera que <span><span><img src="HTMLFiles/Reporte R_SNC_43.png" alt="Reporte R_SNC_43.png" width="18" height="21" style="vertical-align:middle" /></span></span> es mucho m&aacute;s sensible a los cambios que <span><span><img src="HTMLFiles/Reporte R_SNC_44.png" alt="Reporte R_SNC_44.png" width="16" height="21" style="vertical-align:middle" /></span></span>, que es afectada por la estrategia de testeo.
+</p>
+
+
+
+<p class="Section">
+ Cometarios Finales
+</p>
+
+
+
+<p class="Item1">
+ Al interpretar <span><span><img src="HTMLFiles/Reporte R_SNC_45.png" alt="Reporte R_SNC_45.png" width="14" height="16" style="vertical-align:middle" /></span></span> y <span><span><img src="HTMLFiles/Reporte R_SNC_46.png" alt="Reporte R_SNC_46.png" width="17" height="16" style="vertical-align:middle" /></span></span> se deben considerar las tendencias de varios d&iacute;as (crecimiento y decrecimiento en el tiempo), no solamente un punto en el tiempo.
+</p>
+
+
+
+<p class="Item1">
+ <span><span><img src="HTMLFiles/Reporte R_SNC_47.png" alt="Reporte R_SNC_47.png" width="14" height="16" style="vertical-align:middle" /></span></span> es un par&aacute;metro que detecta las tasas de contagio en el pasado para llegar al presente, no lo que va suceder en el futuro. Utilizar este par&aacute;metro para proyectar el futuro es delicado, y puede ser afectado para su interpretaci&oacute;n con el filtro que se aplique para suavizar el gr&aacute;fico.
+</p>
+
+
+
+<p class="Item1">
+ La pandemia adem&aacute;s de ser no-lineal es un proceso estoc&aacute;stico, lo que dificulta anticipar puntos cr&iacute;ticos que pueden cambiar su comportamiento. M&aacute;s a&uacute;n, si s&oacute;lo se observan desde los cambios en <span><span><img src="HTMLFiles/Reporte R_SNC_48.png" alt="Reporte R_SNC_48.png" width="14" height="16" style="vertical-align:middle" /></span></span>. Un ejemplo de esto es la saturaci&oacute;n de UCI, no se percibe de forma clara en <span><span><img src="HTMLFiles/Reporte R_SNC_49.png" alt="Reporte R_SNC_49.png" width="14" height="16" style="vertical-align:middle" /></span></span>, pero si en <span><span><img src="HTMLFiles/Reporte R_SNC_50.png" alt="Reporte R_SNC_50.png" width="17" height="16" style="vertical-align:middle" /></span></span>. Por esta raz&oacute;n es necesario utilizar m&uacute;ltiples m&eacute;tricas para entender el estado de la situaci&oacute;n y tomar decisiones adecuadas.
+</p>
+
+
+
+<p class="Item1">
+ Hay un consenso entre lo que hemos sugerido con velocidades de hospitalizaci&oacute;n donde utilizamos un an&aacute;lisis estad&iacute;stico que identifica el inicio de lecciones como un punto de cambio en la tendencia de hospitalizaci&oacute;n (<span><a href="https://tomasdecamino.github.io/COVIDsituation/"><span class="HyperlinkInline">ver sitio web</span></a></span>) y el <span><span><img src="HTMLFiles/Reporte R_SNC_51.png" alt="Reporte R_SNC_51.png" width="17" height="16" style="vertical-align:middle" /></span></span> que sugiere dos cosas: primero, que semana santa no fue el disparador de la ola actual, y segundo, que el inicio del ciclo lectivo tiene una probabilidad mayor de ser el punto de inicio de la nueva ola epid&eacute;mica.
+</p>
+
+
+
+<p class="Item1">
+ Toda medida aplicada parte de un principio de si existe evidencia suficiente para tomar una medida, y debido a la dificultad de controlar COVID-19 a nivel de poblaci&oacute;n, se utiliza el principio de cautela y el pero caso posible, para preparar al sistema acordemente. Bajo ese mismo principio, nosotros hemos recomendado la suspenci&oacute;n temporal de las actividades educativas, al encontrar evidencia suficiente para alertar de la situaci&oacute;n. 
+</p>
+
+
+
+
+
+
+<div style="font-family:Helvetica; font-size:11px; width:100%; border:1px none #999999; border-top-style:solid; padding-top:2px; margin-top:20px;">
+ <a href="http://www.wolfram.com/language/" style="color:#000; text-decoration:none;">
+  <span style="color:#555555">Created with the Wolfram Language</span> 
+ </a>
+</div>
+</body>
+
+</html>

@@ -5963,25 +5963,11 @@ html {
 .SymposiumDateInline {
   padding: 8px;
 }
-/* SymposiumEditor:*/
-.SymposiumEditor {
-  padding: 8px;
-}
-.SymposiumEditorInline {
-  padding: 8px;
-}
 /* SymposiumSponsor:*/
 .SymposiumSponsor {
   padding: 8px;
 }
 .SymposiumSponsorInline {
-  padding: 8px;
-}
-/* AuthorsPreviousPublications:*/
-.AuthorsPreviousPublications {
-  padding: 8px;
-}
-.AuthorsPreviousPublicationsInline {
   padding: 8px;
 }
 /* EditorFirstName:*/
@@ -6212,151 +6198,6 @@ html {
 .ForewordAuthorInline {
   padding: 8px;
 }
-/* BookPartLabel:*/
-.BookPartLabel {
-  font-size: 27px;
-  font-family: Helvetica;
-  font-weight: bold;
-  text-align: center;
-  margin-left: 54px;
-  margin-right: 54px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  padding: 8px;
-}
-.BookPartLabelInline {
-  font-size: 27px;
-  font-family: Helvetica;
-  font-weight: bold;
-  text-align: center;
-  margin-left: 54px;
-  margin-right: 54px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  padding: 8px;
-}
-/* BookPartNumber:*/
-.BookPartNumber {
-  font-size: 27px;
-  font-family: Helvetica;
-  font-weight: bold;
-  margin-left: 54px;
-  margin-right: 54px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  padding: 8px;
-}
-.BookPartNumberInline {
-  font-size: 27px;
-  font-family: Helvetica;
-  font-weight: bold;
-  margin-left: 54px;
-  margin-right: 54px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  padding: 8px;
-}
-/* BookPartTitle:*/
-.BookPartTitle {
-  font-size: 36px;
-  font-family: Helvetica;
-  font-weight: bold;
-  text-align: center;
-  margin-left: 54px;
-  margin-right: 54px;
-  margin-top: 7px;
-  margin-bottom: 12px;
-  padding: 8px;
-}
-.BookPartTitleInline {
-  font-size: 36px;
-  font-family: Helvetica;
-  font-weight: bold;
-  text-align: center;
-  margin-left: 54px;
-  margin-right: 54px;
-  margin-top: 7px;
-  margin-bottom: 12px;
-  padding: 8px;
-}
-/* BookPartSubtitle:*/
-.BookPartSubtitle {
-  font-size: 24px;
-  font-family: Helvetica;
-  font-weight: bold;
-  text-align: center;
-  margin-left: 54px;
-  margin-right: 54px;
-  margin-top: 7px;
-  margin-bottom: 12px;
-  padding: 8px;
-}
-.BookPartSubtitleInline {
-  font-size: 24px;
-  font-family: Helvetica;
-  font-weight: bold;
-  text-align: center;
-  margin-left: 54px;
-  margin-right: 54px;
-  margin-top: 7px;
-  margin-bottom: 12px;
-  padding: 8px;
-}
-/* BookPartSubsubtitle:*/
-.BookPartSubsubtitle {
-  font-size: 18px;
-  font-family: Helvetica;
-  font-weight: normal;
-  text-align: center;
-  margin-left: 54px;
-  margin-right: 54px;
-  padding: 8px;
-}
-.BookPartSubsubtitleInline {
-  font-size: 18px;
-  font-family: Helvetica;
-  font-weight: normal;
-  text-align: center;
-  margin-left: 54px;
-  margin-right: 54px;
-  padding: 8px;
-}
-/* BookPartText:*/
-.BookPartText {
-  text-align: justify;
-  text-indent: 12px;
-  margin-left: 72px;
-  margin-right: 72px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  padding: 8px;
-}
-.BookPartTextInline {
-  text-align: justify;
-  text-indent: 12px;
-  margin-left: 72px;
-  margin-right: 72px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  padding: 8px;
-}
-/* BookPartTextNoIndent:*/
-.BookPartTextNoIndent {
-  text-align: justify;
-  margin-left: 72px;
-  margin-right: 72px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  padding: 8px;
-}
-.BookPartTextNoIndentInline {
-  text-align: justify;
-  margin-left: 72px;
-  margin-right: 72px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  padding: 8px;
-}
 /* BookChapterLabel:*/
 .BookChapterLabel {
   font-size: 13px;
@@ -6461,55 +6302,6 @@ html {
   padding: 8px;
 }
 .ColophonInline {
-  padding: 8px;
-}
-/* Sender:*/
-.Sender {
-  padding: 8px;
-}
-.SenderInline {
-  padding: 8px;
-}
-/* Recipient:*/
-.Recipient {
-  padding: 8px;
-}
-.RecipientInline {
-  padding: 8px;
-}
-/* Salutation:*/
-.Salutation {
-  padding: 8px;
-}
-.SalutationInline {
-  padding: 8px;
-}
-/* Closing:*/
-.Closing {
-  padding: 8px;
-}
-.ClosingInline {
-  padding: 8px;
-}
-/* Signature:*/
-.Signature {
-  padding: 8px;
-}
-.SignatureInline {
-  padding: 8px;
-}
-/* ClosingReference:*/
-.ClosingReference {
-  padding: 8px;
-}
-.ClosingReferenceInline {
-  padding: 8px;
-}
-/* Postscript:*/
-.Postscript {
-  padding: 8px;
-}
-.PostscriptInline {
   padding: 8px;
 }
 /* SingleLine:*/
@@ -9275,7 +9067,7 @@ Floor[--------------------------------------------------]
   color: #808080;
   text-align: left;
   line-height:                1
-If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$262398]
+If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$81610]
         -2. + Inherited;
   padding: 8px;
 }
@@ -9287,7 +9079,7 @@ If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$262398]
   color: #808080;
   text-align: left;
   line-height:                1
-If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$262414]
+If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$81626]
         -2. + Inherited;
   padding: 8px;
 }
@@ -9300,7 +9092,7 @@ If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$262414]
   color: #808080;
   text-align: left;
   line-height:                1
-If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$262430]
+If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$81642]
         -1. + Inherited;
   padding: 8px;
 }
@@ -9312,7 +9104,7 @@ If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$262430]
   color: #808080;
   text-align: left;
   line-height:                1
-If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$262446]
+If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$81658]
         -1. + Inherited;
   padding: 8px;
 }
@@ -21134,25 +20926,11 @@ If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$262446]
 .SymposiumDateInline {
   padding: 8pt;
 }
-/* SymposiumEditor:Printout*/
-.SymposiumEditor {
-  padding: 8pt;
-}
-.SymposiumEditorInline {
-  padding: 8pt;
-}
 /* SymposiumSponsor:Printout*/
 .SymposiumSponsor {
   padding: 8pt;
 }
 .SymposiumSponsorInline {
-  padding: 8pt;
-}
-/* AuthorsPreviousPublications:Printout*/
-.AuthorsPreviousPublications {
-  padding: 8pt;
-}
-.AuthorsPreviousPublicationsInline {
   padding: 8pt;
 }
 /* EditorFirstName:Printout*/
@@ -21377,111 +21155,6 @@ If[1. + --------------- < 0, 0, System`Convert`CSSDump`c$262446]
   padding: 8pt;
 }
 .ForewordAuthorInline {
-  padding: 8pt;
-}
-/* BookPartLabel:Printout*/
-.BookPartLabel {
-  margin-left: 48pt;
-  margin-right: 48pt;
-  margin-top: 6pt;
-  margin-bottom: 6pt;
-  padding: 8pt;
-}
-.BookPartLabelInline {
-  margin-left: 48pt;
-  margin-right: 48pt;
-  margin-top: 6pt;
-  margin-bottom: 6pt;
-  padding: 8pt;
-}
-/* BookPartNumber:Printout*/
-.BookPartNumber {
-  text-align: center;
-  margin-left: 48pt;
-  margin-right: 48pt;
-  margin-top: 6pt;
-  margin-bottom: 6pt;
-  padding: 8pt;
-}
-.BookPartNumberInline {
-  text-align: center;
-  margin-left: 48pt;
-  margin-right: 48pt;
-  margin-top: 6pt;
-  margin-bottom: 6pt;
-  padding: 8pt;
-}
-/* BookPartTitle:Printout*/
-.BookPartTitle {
-  margin-left: 48pt;
-  margin-right: 48pt;
-  margin-top: 6pt;
-  margin-bottom: 10pt;
-  padding: 8pt;
-}
-.BookPartTitleInline {
-  margin-left: 48pt;
-  margin-right: 48pt;
-  margin-top: 6pt;
-  margin-bottom: 10pt;
-  padding: 8pt;
-}
-/* BookPartSubtitle:Printout*/
-.BookPartSubtitle {
-  margin-left: 48pt;
-  margin-right: 48pt;
-  margin-top: 6pt;
-  margin-bottom: 10pt;
-  padding: 8pt;
-}
-.BookPartSubtitleInline {
-  margin-left: 48pt;
-  margin-right: 48pt;
-  margin-top: 6pt;
-  margin-bottom: 10pt;
-  padding: 8pt;
-}
-/* BookPartSubsubtitle:Printout*/
-.BookPartSubsubtitle {
-  margin-left: 48pt;
-  margin-right: 48pt;
-  padding: 8pt;
-}
-.BookPartSubsubtitleInline {
-  margin-left: 48pt;
-  margin-right: 48pt;
-  padding: 8pt;
-}
-/* BookPartText:Printout*/
-.BookPartText {
-  text-indent: 10pt;
-  margin-left: 60pt;
-  margin-right: 60pt;
-  margin-top: 5pt;
-  margin-bottom: 5pt;
-  padding: 8pt;
-}
-.BookPartTextInline {
-  text-indent: 10pt;
-  margin-left: 60pt;
-  margin-right: 60pt;
-  margin-top: 5pt;
-  margin-bottom: 5pt;
-  padding: 8pt;
-}
-/* BookPartTextNoIndent:Printout*/
-.BookPartTextNoIndent {
-  margin-left: 60pt;
-  margin-right: 60pt;
-  margin-top: 5pt;
-  margin-bottom: 5pt;
-  padding: 8pt;
-}
-.BookPartTextNoIndentInline {
-  margin-left: 60pt;
-  margin-right: 60pt;
-  margin-top: 5pt;
-  margin-bottom: 5pt;
   padding: 8pt;
 }
 /* BookChapterLabel:Printout*/

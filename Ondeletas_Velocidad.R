@@ -2,8 +2,8 @@ library(wavelets)
 # carga los daots de https://geovision.uned.ac.cr/oges/
 # noten la fecha en el directorio y nombre de archivo
 data <- read.csv("C:\\Users\\fbena\\Documents\\Python Scripts\\R Scripts\\05_20_21_CSV_GENERAL.csv", sep=';')
-# hospitalizaciones en la columna 30
-hosp <-data[,30]
+# hospitalizaciones en la columna 32
+hosp <-data[,32]
 # Se igualan a 0 los coeficientes indefinidos de la serie
 hosp[is.na(hosp)]<-0
 # Se derivan los datos de hospitalización para extraer la tasa de cambio en hospitalizaciones

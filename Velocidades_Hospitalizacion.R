@@ -20,8 +20,8 @@ finite.differences <- function(data) {
 # cambiar la fecha acordemente para cargar los últimos datos
 data <- read.csv("https://geovision.uned.ac.cr/oges/archivos_covid/2021_05_18/05_18_21_CSV_GENERAL.csv", sep=';')
 
-# hospitalizaciones en la columna 30
-hosp <-data[,30]
+# hospitalizaciones en la columna 32
+hosp <-data[,32]
 
 # calcula la derivada numérica
 deriv <- finite.differences(hosp)

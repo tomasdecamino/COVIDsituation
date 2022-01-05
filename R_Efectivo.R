@@ -26,8 +26,8 @@ effective.R<-function(d,u){
 # carga los datos de https://geovision.uned.ac.cr/oges/
 # noten la fecha en el directorio y nombre de archivo
 data <- read.csv("https://geovision.uned.ac.cr/oges/archivos_covid/2021_05_24/05_24_21_CSV_GENERAL.csv", sep=';')
-# casos nuevos positivos en la columna 3
-hosp <-data[,3]
+# casos nuevos positivos en la columna 4
+hosp <-data[,4]
 
 #calcula el R efectivo ponderando 15 días hacia atrás
 R <- effective.R(hosp,15)
